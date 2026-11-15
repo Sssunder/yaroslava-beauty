@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" class="scroll-smooth" data-theme="slate-platinum">
+<html lang="ru" class="scroll-smooth" data-theme="slate">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
 
     <script>
         tailwind.config = {
-            darkMode: ['selector', '[data-theme="noir"]'],
+            darkMode: ['selector', '[data-theme="onyx"]'],
             theme: {
                 extend: {
                     colors: {
@@ -53,14 +53,11 @@
     </script>
 
     <style>
-        /* ==============================================================
-           YAROSLAVA ERMAKOVA MULTI-THEME ENGINE & LUXURY DESIGN SYSTEM
-           ============================================================== */
                 /* ==============================================================
-           YAROSLAVA ERMAKOVA BESPOKE SLATE-PLATINUM DESIGN SYSTEM
+           YAROSLAVA ERMAKOVA BESPOKE NAIL STUDIO THEME ENGINE
            ============================================================== */
-        :root, [data-theme="slate-platinum"] {
-            --bg-page: #F4F6F9;
+        :root, [data-theme="slate"] {
+            --bg-page: #F5F7FA;
             --bg-card: #FFFFFF;
             --bg-elevated: #E8EEF5;
             --bg-input: #FFFFFF;
@@ -78,76 +75,72 @@
             --hero-mesh: radial-gradient(at 0% 0%, #EEF2F6 0px, transparent 60%),
                          radial-gradient(at 100% 0%, #F1F5F9 0px, transparent 60%),
                          radial-gradient(at 100% 100%, #E2E8F0 0px, transparent 60%);
-            --scrollbar-track: #F4F6F9;
+            --scrollbar-track: #F5F7FA;
             --scrollbar-thumb: #94A3B8;
         }
 
-        [data-theme="rose"] {
-            --bg-page: #FFF7F9;
+        [data-theme="french"] {
+            --bg-page: #FAF9F6;
             --bg-card: #FFFFFF;
-            --bg-elevated: #FCEBF0;
+            --bg-elevated: #F4F1EA;
             --bg-input: #FFFFFF;
-            --bg-header: rgba(255, 250, 252, 0.92);
-            --color-accent: #B83358;
-            --color-accent-hover: #9C2446;
+            --bg-header: rgba(255, 255, 255, 0.95);
+            --color-accent: #8A6D4A;
+            --color-accent-hover: #705537;
             --color-accent-text: #FFFFFF;
-            --color-accent-soft: #FDF2F5;
-            --text-heading: #361322;
-            --text-body: #5C283E;
-            --text-muted: #73354F;
-            --border-color: rgba(184, 51, 88, 0.28);
-            --border-subtle: rgba(184, 51, 88, 0.18);
-            --glow: 0 20px 45px -12px rgba(184, 51, 88, 0.18);
-            --hero-mesh: radial-gradient(at 0% 0%, #FCE7F3 0px, transparent 55%),
-                         radial-gradient(at 100% 0%, #FFF1F2 0px, transparent 55%),
-                         radial-gradient(at 100% 100%, #FBE4EB 0px, transparent 55%);
-            --scrollbar-track: #FFF7F9;
-            --scrollbar-thumb: #B83358;
+            --color-accent-soft: #F5EFE6;
+            --text-heading: #241E17;
+            --text-body: #4A4036;
+            --text-muted: #7A6D60;
+            --border-color: rgba(220, 210, 195, 0.85);
+            --border-subtle: rgba(138, 109, 74, 0.2);
+            --glow: 0 16px 36px -10px rgba(138, 109, 74, 0.10);
+            --hero-mesh: radial-gradient(at 0% 0%, #FBF9F4 0px, transparent 60%),
+                         radial-gradient(at 100% 100%, #F5EFE6 0px, transparent 60%);
+            --scrollbar-track: #FAF9F6;
+            --scrollbar-thumb: #C8BAA8;
         }
 
-        [data-theme="pearl"] {
-            --bg-page: #F6F7F9;
+        [data-theme="sage"] {
+            --bg-page: #F6F8F6;
             --bg-card: #FFFFFF;
-            --bg-elevated: #ECEFF4;
+            --bg-elevated: #EBF0EC;
             --bg-input: #FFFFFF;
-            --bg-header: rgba(255, 255, 255, 0.94);
-            --color-accent: #1E293B;
-            --color-accent-hover: #0F172A;
+            --bg-header: rgba(255, 255, 255, 0.95);
+            --color-accent: #1B4332;
+            --color-accent-hover: #081C15;
             --color-accent-text: #FFFFFF;
-            --color-accent-soft: #E2E8F0;
-            --text-heading: #0F172A;
-            --text-body: #334155;
-            --text-muted: #475569;
-            --border-color: rgba(148, 163, 184, 0.35);
-            --border-subtle: rgba(30, 41, 59, 0.16);
-            --glow: 0 20px 45px -12px rgba(15, 23, 42, 0.10);
-            --hero-mesh: radial-gradient(at 0% 0%, #F1F5F9 0px, transparent 55%),
-                         radial-gradient(at 100% 0%, #E2E8F0 0px, transparent 55%),
-                         radial-gradient(at 100% 100%, #F8FAFC 0px, transparent 55%);
-            --scrollbar-track: #F6F7F9;
-            --scrollbar-thumb: #475569;
+            --color-accent-soft: #D8F3DC;
+            --text-heading: #081C15;
+            --text-body: #2D3748;
+            --text-muted: #52796F;
+            --border-color: rgba(183, 228, 199, 0.7);
+            --border-subtle: rgba(27, 67, 50, 0.18);
+            --glow: 0 16px 36px -10px rgba(27, 67, 50, 0.10);
+            --hero-mesh: radial-gradient(at 0% 0%, #E8F5E9 0px, transparent 60%),
+                         radial-gradient(at 100% 100%, #D8F3DC 0px, transparent 60%);
+            --scrollbar-track: #F6F8F6;
+            --scrollbar-thumb: #74C69D;
         }
 
-        [data-theme="noir"] {
-            --bg-page: #0D0B0A;
-            --bg-card: #181412;
-            --bg-elevated: #231E1B;
-            --bg-input: #120F0D;
-            --bg-header: rgba(24, 20, 18, 0.94);
+        [data-theme="onyx"] {
+            --bg-page: #0C1017;
+            --bg-card: #141A23;
+            --bg-elevated: #1D2532;
+            --bg-input: #0F141C;
+            --bg-header: rgba(18, 24, 33, 0.95);
             --color-accent: #D4AF37;
             --color-accent-hover: #E5C158;
-            --color-accent-text: #120F0D;
+            --color-accent-text: #0C1017;
             --color-accent-soft: rgba(212, 175, 55, 0.16);
-            --text-heading: #F8F4EC;
-            --text-body: #E2DBD2;
-            --text-muted: #B0A395;
-            --border-color: rgba(212, 175, 55, 0.32);
+            --text-heading: #F8FAFC;
+            --text-body: #E2E8F0;
+            --text-muted: #94A3B8;
+            --border-color: rgba(212, 175, 55, 0.28);
             --border-subtle: rgba(212, 175, 55, 0.18);
-            --glow: 0 20px 50px -10px rgba(212, 175, 55, 0.18);
-            --hero-mesh: radial-gradient(at 0% 0%, rgba(212, 175, 55, 0.14) 0px, transparent 55%),
-                         radial-gradient(at 100% 100%, rgba(179, 107, 86, 0.12) 0px, transparent 55%),
-                         #181412;
-            --scrollbar-track: #0D0B0A;
+            --glow: 0 20px 50px -10px rgba(0, 0, 0, 0.6);
+            --hero-mesh: radial-gradient(at 0% 0%, rgba(212, 175, 55, 0.12) 0px, transparent 55%), #141A23;
+            --scrollbar-track: #0C1017;
             --scrollbar-thumb: #D4AF37;
         }
 
@@ -233,28 +226,28 @@
         }
 
         /* Dark Mode Explicit Overrides for Noir Velvet */
-        [data-theme="noir"] .bg-white,
-        [data-theme="noir"] .bg-white\/95,
-        [data-theme="noir"] .bg-nude-50,
-        [data-theme="noir"] .bg-nude-100,
-        [data-theme="noir"] #pinModal > div,
-        [data-theme="noir"] #confirmModal > div,
-        [data-theme="noir"] #addModal > div,
-        [data-theme="noir"] #photoModal > div,
-        [data-theme="noir"] #reviewModal > div,
-        [data-theme="noir"] #lightboxModal > div {
+        [data-theme="onyx"] .bg-white,
+        [data-theme="onyx"] .bg-white\/95,
+        [data-theme="onyx"] .bg-nude-50,
+        [data-theme="onyx"] .bg-nude-100,
+        [data-theme="onyx"] #pinModal > div,
+        [data-theme="onyx"] #confirmModal > div,
+        [data-theme="onyx"] #addModal > div,
+        [data-theme="onyx"] #photoModal > div,
+        [data-theme="onyx"] #reviewModal > div,
+        [data-theme="onyx"] #lightboxModal > div {
             background-color: #181412 !important;
             border-color: rgba(212, 175, 55, 0.32) !important;
             color: #E2DBD2 !important;
         }
-        [data-theme="noir"] .text-emerald-800,
-        [data-theme="noir"] .text-emerald-700,
-        [data-theme="noir"] .text-emerald-600 {
+        [data-theme="onyx"] .text-emerald-800,
+        [data-theme="onyx"] .text-emerald-700,
+        [data-theme="onyx"] .text-emerald-600 {
             color: #34D399 !important;
         }
-        [data-theme="noir"] .text-amber-800,
-        [data-theme="noir"] .text-amber-700,
-        [data-theme="noir"] .text-amber-600 {
+        [data-theme="onyx"] .text-amber-800,
+        [data-theme="onyx"] .text-amber-700,
+        [data-theme="onyx"] .text-amber-600 {
             color: #FBBF24 !important;
         }
         input:not([type="checkbox"]):not([type="radio"]),
@@ -268,64 +261,64 @@
             accent-color: var(--color-accent);
         }
 
-        [data-theme="noir"] .text-rose-500,
-        [data-theme="noir"] .text-rose-600,
-        [data-theme="noir"] .text-rose-700 {
+        [data-theme="onyx"] .text-rose-500,
+        [data-theme="onyx"] .text-rose-600,
+        [data-theme="onyx"] .text-rose-700 {
             color: #FB7185 !important;
         }
-        [data-theme="noir"] a[href*="vk.com"],
-        [data-theme="noir"] a[href*="max.ru"],
-        [data-theme="noir"] .text-\[\#005CE6\] {
+        [data-theme="onyx"] a[href*="vk.com"],
+        [data-theme="onyx"] a[href*="max.ru"],
+        [data-theme="onyx"] .text-\[\#005CE6\] {
             color: #60A5FA !important;
         }
-        [data-theme="noir"] a[href*="wa.me"] {
+        [data-theme="onyx"] a[href*="wa.me"] {
             color: #4ADE80 !important;
         }
-        [data-theme="noir"] a[href*="t.me"],
-        [data-theme="noir"] .text-\[\#0284C7\],
-        [data-theme="noir"] .text-\[\#0369A1\] {
+        [data-theme="onyx"] a[href*="t.me"],
+        [data-theme="onyx"] .text-\[\#0284C7\],
+        [data-theme="onyx"] .text-\[\#0369A1\] {
             color: #38BDF8 !important;
         }
-        [data-theme="noir"] option {
+        [data-theme="onyx"] option {
             background-color: #181412;
             color: #F8F4EC;
         }
-        [data-theme="noir"] input::placeholder,
-        [data-theme="noir"] textarea::placeholder {
+        [data-theme="onyx"] input::placeholder,
+        [data-theme="onyx"] textarea::placeholder {
             color: #9E9184 !important;
             opacity: 1;
         }
-        [data-theme="noir"] .hero-frame-border {
+        [data-theme="onyx"] .hero-frame-border {
             border-color: rgba(212, 175, 55, 0.45) !important;
         }
-        [data-theme="noir"] .bg-nude-200\/80,
-        [data-theme="noir"] [class*="bg-nude-200"],
-        [data-theme="noir"] [class*="bg-nude-100\/"] {
+        [data-theme="onyx"] .bg-nude-200\/80,
+        [data-theme="onyx"] [class*="bg-nude-200"],
+        [data-theme="onyx"] [class*="bg-nude-100\/"] {
             background-color: #231E1B !important;
             border-color: rgba(212, 175, 55, 0.22) !important;
         }
-        [data-theme="noir"] .cat-btn.active-tab,
-        [data-theme="noir"] .gallery-filter-btn.active-tab,
-        [data-theme="noir"] .review-filter-btn.active-tab {
+        [data-theme="onyx"] .cat-btn.active-tab,
+        [data-theme="onyx"] .gallery-filter-btn.active-tab,
+        [data-theme="onyx"] .review-filter-btn.active-tab {
             background-color: #D4AF37 !important;
             color: #120F0D !important;
         }
-        [data-theme="noir"] input,
-        [data-theme="noir"] select,
-        [data-theme="noir"] textarea {
+        [data-theme="onyx"] input,
+        [data-theme="onyx"] select,
+        [data-theme="onyx"] textarea {
             background-color: #120F0D !important;
             border-color: rgba(212, 175, 55, 0.3) !important;
             color: #F8F4EC !important;
         }
-        [data-theme="noir"] #headerThemePopover {
+        [data-theme="onyx"] #headerThemePopover {
             background-color: #181412 !important;
             border-color: rgba(212, 175, 55, 0.35) !important;
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.85), 0 0 25px rgba(212, 175, 55, 0.15) !important;
         }
-        [data-theme="noir"] #headerThemePopover button:hover {
+        [data-theme="onyx"] #headerThemePopover button:hover {
             background-color: #26211D !important;
         }
-        [data-theme="noir"] #stickyBar {
+        [data-theme="onyx"] #stickyBar {
             background-color: rgba(18, 15, 13, 0.94) !important;
             border-color: rgba(212, 175, 55, 0.3) !important;
         }
@@ -370,13 +363,8 @@
             
             <!-- Left: Brand Identity -->
             <div class="flex items-center gap-2 sm:gap-3.5 min-w-0">
-                <div class="flex items-center gap-2 flex-shrink-0">
-                    <div class="relative w-9 h-9 sm:w-11 sm:h-11 rounded-full p-0.5 bg-gradient-to-tr from-[#233142] to-[#C5A059] shadow-sm flex-shrink-0">
-                        <img src="yaroslava_real_avatar.jpg" alt="Ярослава Ермакова" class="w-full h-full rounded-full object-cover border border-white">
-                    </div>
-                    <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg overflow-hidden border border-slate-200 shadow-xs hidden sm:block">
-                        <img src="logo.jpg" alt="Монограмма ЯЕ" class="w-full h-full object-cover">
-                    </div>
+                <div class="relative w-10 h-10 sm:w-12 sm:h-12 rounded-2xl p-0.5 bg-gradient-to-tr from-[#1E293B] to-[#C5A059] shadow-md flex-shrink-0 overflow-hidden">
+                    <img src="logo.jpg" alt="Студия Ярославы Ермаковой" class="w-full h-full rounded-2xl object-cover border border-white/20">
                 </div>
                 <div class="min-w-0">
                     <div class="flex items-center gap-2">
@@ -1071,10 +1059,10 @@
                             <div class="text-[11px] text-muted-theme mt-0.5">Применяется новым гостям сайта (если гость сам не выбрал другую тему в шапке)</div>
                         </div>
                         <select id="cfgDefaultTheme" class="w-full sm:w-64 px-3 py-2.5 rounded-xl border text-xs font-bold">
-                            <option value="nude">🌿 Тёплый Нюд (по умолчанию)</option>
-                            <option value="rose">🌸 Нежная Роза</option>
-                            <option value="pearl">💎 Жемчуг &amp; Графит</option>
-                            <option value="noir">🖤 Вечерний Вельвет (Тёмная)</option>
+                            <option value="slate">🏛️ Нордик Графит (по умолчанию)</option>
+                            <option value="french">🤍 Фирменный Френч</option>
+                            <option value="sage">🌿 Студийный Шалфей</option>
+                            <option value="onyx">🖤 Ночной Оникс (тёмная)</option>
                         </select>
                     </div>
                 </div>
@@ -1545,20 +1533,20 @@
     <script>
         // ================= THEME & AUDIO ENGINE =================
         const THEME_META = {
-            nude: { emoji: '🌿', label: 'Нюд' },
-            rose: { emoji: '🌸', label: 'Роза' },
-            pearl: { emoji: '💎', label: 'Жемчуг' },
-            noir: { emoji: '🖤', label: 'Вельвет' }
+            slate: { emoji: '🏛️', label: 'Графит' },
+            french: { emoji: '🤍', label: 'Френч' },
+            sage: { emoji: '🌿', label: 'Шалфей' },
+            onyx: { emoji: '🖤', label: 'Оникс' }
         };
         function getInitialTheme() {
-            const manual = localStorage.getItem('elena_theme_manual');
+            const manual = localStorage.getItem('yaroslava_theme_manual');
             if (manual && THEME_META[manual]) return manual;
-            const saved = localStorage.getItem('elena_theme_v3');
+            const saved = localStorage.getItem('yaroslava_theme_v3');
             if (saved && THEME_META[saved]) return saved;
-            return 'nude';
+            return 'slate';
         }
         let currentTheme = getInitialTheme();
-        let soundEnabled = localStorage.getItem('elena_sound_v3') !== 'false';
+        let soundEnabled = localStorage.getItem('yaroslava_sound_v3') !== 'false';
         let audioCtx = null;
 
         function playTone(freq = 540, dur = 0.08) {
@@ -1580,12 +1568,12 @@
         }
 
         function setTheme(themeName, sound = true, isManual = false) {
-            if (!THEME_META[themeName]) themeName = 'nude';
+            if (!THEME_META[themeName]) themeName = 'slate';
             currentTheme = themeName;
             document.documentElement.setAttribute('data-theme', themeName);
-            localStorage.setItem('elena_theme_v3', themeName);
+            localStorage.setItem('yaroslava_theme_v3', themeName);
             if (isManual) {
-                localStorage.setItem('elena_theme_manual', themeName);
+                localStorage.setItem('yaroslava_theme_manual', themeName);
             }
 
             const m = THEME_META[themeName];
@@ -1639,7 +1627,7 @@
 
         function toggleSound() {
             soundEnabled = !soundEnabled;
-            localStorage.setItem('elena_sound_v3', soundEnabled);
+            localStorage.setItem('yaroslava_sound_v3', soundEnabled);
             document.getElementById('soundIcon').textContent = soundEnabled ? '🔊' : '🔇';
             if (soundEnabled) playTone(660, 0.1);
         }
@@ -1903,7 +1891,7 @@
         const WEEKDAY_30_SLOTS = ['10:00','10:30','11:00','11:30','12:00','12:30','13:00','13:30','14:00','14:30','15:00','15:30','16:00','16:30','17:00','17:30','18:00','18:30','19:00','19:30'];
         const DEFAULT_SITE_CONFIG = {
             telegram: { bot_username: 'GojoNotifyBot', chat_id: null, enabled: false },
-            default_theme: 'slate-platinum',
+            default_theme: 'slate',
             slot_step_min: 30,
             work_start_min: 540,
             work_end_min: 1200,
@@ -2009,7 +1997,7 @@
             const base = JSON.parse(JSON.stringify(DEFAULT_SITE_CONFIG));
             if (!remoteCfg || typeof remoteCfg !== 'object') return base;
             const merged = { ...base, ...remoteCfg };
-            merged.default_theme = THEME_META[merged.default_theme] ? merged.default_theme : 'nude';
+            merged.default_theme = THEME_META[merged.default_theme] ? merged.default_theme : 'slate';
             merged.contacts = { ...base.contacts, ...(remoteCfg.contacts || {}) };
             merged.weekly_open_slots = { ...base.weekly_open_slots, ...(remoteCfg.weekly_open_slots || {}) };
             merged.telegram = { ...base.telegram, ...(remoteCfg.telegram || {}) };
@@ -2139,8 +2127,8 @@
                 if (Array.isArray(bundle.reviews)) {
                     publicReviews = bundle.reviews;
                 }
-                if (!localStorage.getItem('elena_theme_manual')) {
-                    setTheme(siteConfig.default_theme || 'nude', false, false);
+                if (!localStorage.getItem('yaroslava_theme_manual')) {
+                    setTheme(siteConfig.default_theme || 'slate', false, false);
                 }
                 if (!userPickedDateManually) {
                     selectedDateStr = pickInitialAvailableDate();
@@ -3934,7 +3922,7 @@
                 const el = document.getElementById(id);
                 if (el) el.value = val || '';
             };
-            setVal('cfgDefaultTheme', THEME_META[c.default_theme] ? c.default_theme : 'nude');
+            setVal('cfgDefaultTheme', THEME_META[c.default_theme] ? c.default_theme : 'slate');
             setVal('cfgHeroEyebrow', c.hero_eyebrow);
             setVal('cfgStudioAddress', c.studio_address);
             setVal('cfgHeroTitleMain', c.hero_title_main);
@@ -3969,7 +3957,7 @@
             syncCfgServicesFromDom();
             const nextConfig = JSON.parse(JSON.stringify(siteConfig));
             const themeChoice = getVal('cfgDefaultTheme');
-            nextConfig.default_theme = THEME_META[themeChoice] ? themeChoice : 'nude';
+            nextConfig.default_theme = THEME_META[themeChoice] ? themeChoice : 'slate';
             nextConfig.slot_step_min = getSlotStep();
             nextConfig.work_start_min = getWorkStart();
             nextConfig.work_end_min = getWorkEnd();
@@ -4017,8 +4005,8 @@
             try {
                 siteConfig = nextConfig;
                 await persistConfigToCloud('Настройки, тема, услуги и контакты опубликованы!');
-                localStorage.removeItem('elena_theme_manual');
-                setTheme(siteConfig.default_theme || 'nude', false, false);
+                localStorage.removeItem('yaroslava_theme_manual');
+                setTheme(siteConfig.default_theme || 'slate', false, false);
                 populateMasterTextsForm();
             } catch (err) {
                 alert('Ошибка публикации: ' + err.message);
