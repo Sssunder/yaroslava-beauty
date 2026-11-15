@@ -1,0 +1,8 @@
+_archive/
+deploy.py
+project.tgz
+site.zip
+*.tar.gz
+*.log
+.DS_Store
+Thumbs.db
